@@ -100,7 +100,7 @@ class TeamSelectionScreen extends Component {
 
     // note: this is only temporary, in part 3, this will be updated so that once opponent is found, it will automatically navigate to the Battle screen
     setTimeout(() => {
-      const username = navigation.getParam("username");
+      const username = 'Bill Johnson';
 
       this.setState({
         is_loading: false
